@@ -1,0 +1,348 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+img{
+	width: 400px;
+	height: 360px;
+}
+.padre{
+	display: flex;
+	flex-flow: column nowrap;
+}
+.margen-interno{
+	padding: 0 50px;
+}
+.header{
+	background-image: url(imagenes/fondo-blanco.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	flex-flow: column nowrap;
+}
+	.menu{
+		background-color: rgba(0,0,0,.1);
+		display: flex;
+		flex-flow: row nowrap;
+		height: 100px;
+		align-items: center;
+		border-bottom: 1px solid rgba(0,0,0,.5)
+	}
+	
+		.logo{
+			font-size: 35px;
+			flex: 1 1 auto;			
+		}
+			.logo a:hover{
+				color: #6155a6;
+
+			}
+		.nav{			
+			flex: 5 1 auto;
+			flex-grow: 1
+		}
+
+			.nav a{
+				font-size: 15px;
+				text-transform: uppercase;
+				padding: 0 10px;
+				letter-spacing: 2px;
+
+			}
+				.nav a:hover{
+					color: #6155a6;
+					background-color: rgba(0,0,0,.12);
+				}
+		.social{			
+			flex: 1 1 auto;
+			display: flex;
+			flex-grow: 1
+		}
+			.social a{
+				font-size: 18px;
+				color: #000;
+				padding: 0 5px;
+			}
+				.social a:hover{
+					color: #6155a6;
+				}
+
+	.texto-principal{
+		
+		height: 580px;
+		display: flex;
+		align-items: center;
+	}
+		h1{
+			font-family: 'Lora', serif;
+			font-size: 21px;
+			color: #111;
+			text-align: center;
+			line-height: 1.6;
+		}
+.section{
+	background-color: #fff;
+	display: flex;
+}
+	.articulos{
+		background:#fff;
+		flex:2 1 auto;
+		display: flex;
+		flex-flow: row wrap;
+	}
+		.article{
+			flex:1 1 40%;
+			color: #222;
+			font-size: 13px;
+			letter-spacing: 1px;
+			margin: 10px 10px 0 0;
+			flex:1 1 45%;
+			background: #ececec;
+
+		}
+		.article img{
+			width: 100%;
+		}
+		.article a{
+			color: #fff;
+			font-size: 13px;
+			padding: 10px;
+			background:#000;
+			margin: 10px 0;
+			display: inline-block;
+		}
+		.article a:hover{
+			background: #6155a6
+		}
+		li{
+			list-style:none;
+		}
+
+		}
+		h3{
+			color: #000;
+			font-size: 16px;
+			padding: 10px 0;
+			margin-top: -80px;
+		}
+		h2{
+			font-size: 25px;
+			text-transform: uppercase;
+			padding: 0px 0 10px 0;
+			color: #000;
+		}
+		/*.navegacion{
+			background-color: #000;
+			flex:1 1 100%;
+			margin: 10px 10px 0 0;
+
+		}
+		.navegacion a{
+			color: #fff;
+			font-size: 11px;
+			text-transform: uppercase;
+			padding: 0 10px;
+			letter-spacing: 2px;
+		}
+			.navegacion a:hover{
+				color: #6155a6
+			}*/
+	.aside{
+		background-color: #fff;
+		flex:1 1 auto;
+		margin: 10px 5px 10px 0px;
+	}
+	h4{
+		background: #000;
+		color: #fff;
+		padding: 10px;
+		text-transform: uppercase;
+	}
+		.aside img{
+			width: 100%;
+		}
+
+		.publicidad{
+			/*background-color: #ffabe1;*/
+		}
+.ventas{
+	background-image: url(imagenes/fondo-blanco.jpg);
+	background-position: center;
+	background-attachment: scroll;
+	background-size: cover;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+}
+	.ventas-titulo{
+		background-color: rgba(0,0,0,.2);
+		display: flex;
+		flex-flow: row nowrap;
+		height: 130px;
+		justify-content: center;
+		border-bottom: 1px solid rgba(0,0,0,.5);
+		box-sizing: border-box;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-family: 'Bodoni Moda', serif;
+		font-size: 20px;
+		justify-content: center;
+
+	}
+		.ventas-partes{
+			display: flex;
+			flex-direction: row;
+			padding: 5px;
+			margin-top: 20px;
+			letter-spacing: 2px;
+			font-family: 'Bodoni Moda', serif;
+			font-size: 23px;
+			justify-content: center;
+			align-items: center;
+			height: 300px
+		}
+		
+		.ventas-seccion{
+			padding: 20px;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+		}
+			.icono-2{
+				border-left: solid black 1px;
+				border-right: solid black 1px;
+			}
+			.ventas-item{
+				display: flex;
+				align-self: center;l
+			}
+			.ventas-icono{
+				font-size: 30px;
+				margin: 0px auto;
+				display: block;
+			}
+			div i{
+				text-align: center;
+			}
+			
+			.mercado{
+				margin-top: 30px;
+			}
+			.maxi-1{
+				margin-top: 30px;
+			}
+			.maxi-2{
+				margin-top: 20px;
+				font-size: 19px;
+				text-align: center;
+			}
+			.envios{
+				margin-top: 30px
+			}
+	.informacion-celular{
+
+			color: #fff;
+			font-size: 22px;
+			padding: 10px;
+			background:#000;
+			margin: 10px 0;
+			display: block;
+			text-align: center;
+		}
+		.informacion-celular:hover{
+
+			background: #6155a6
+		}
+
+
+	.footer{
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+	.pie{
+		color: #fff;
+		width: 300px;
+		padding: 3px;
+	}
+	.pie a{
+		color: #fff;
+		
+		text-transform: uppercase;
+		padding: 0 10px;
+		letter-spacing: 2px;
+	}
+
+
+@media all and (max-width: 1120px){
+	.section{
+		flex-direction: column;
+	}
+	.menu{
+		flex-direction: column;
+		height: auto;
+	}
+	.aside{
+		display: flex;
+		justify-content: center;
+	}
+	h1{
+		font-size: 15px;
+	}
+	.texto-principal{
+		height: 400px;
+	}
+	.ventas-partes{
+		flex-direction: column;
+	}
+}
+@media all and (max-width: 762px){
+	.articulos{
+		flex-direction: column;
+	}
+	.texto-principal{
+		height: 650px;
+	}
+	.nav a{
+				font-size: 11px;
+				text-transform: uppercase;
+				padding: 0 5px;
+				letter-spacing: 2px;
+ 	}
+ 	.ventas-titulo{
+ 		height: 150px;
+ 	}
+@media all and (max-width: 600px){
+	.aside{
+		flex-direction: column;
+	}
+		.texto-principal{
+		height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+https://colorhunt.co/palette/226652
